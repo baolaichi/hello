@@ -1,53 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="./app.js" defer></script>
-    <title>Chúc</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="trangchu.css">
+      <link rel="shortcut icon" type="image/png" href="image/favicon.png"/>
+      <title>Hellu BT đây</title>
 </head>
 <body>
-    <div class="loading">
+     <div id="wrapper">
+           <!-- Thanh menu -->
+           <nav>
+               <ul>
+                   <li><a href="intdex.html">Trang chủ</a></li>
+                   <li><a href="chuc.html">Lời Chúc</a></li>
+ <!-- Điều hướng đến trang "Chúc" -->
+               </ul>
+           </nav>
+           
+           <!-- 1. Tiêu đề -->
+           <h1>My LOVE</h1>
+           <div id="clock-box">
+                 <div id="clock">
+                       <date>0 Ngày</date>
+                       <time>00:00:00</time>
+                  </div>
+            </div>
+            
+            <div id="info">
+                  <div class="one">
+                        <!-- 3. Ảnh của bạn nam -->
+                        <img src="image/7f56e42fda8863d63a99.jpg" class="avt" alt="Hình ảnh đại diện của người dùng">
+                        <!-- 4. Tên bạn nam -->
+                        <p>Người Xấu</p>
+                  </div>
+                  <div id="heart">
+                        ❤<anni>...</anni>
+                  </div>
+                  <div class="two">
+                        <!-- 5. Ảnh của bạn nữ -->
+                        <img src="image/5f4fbfc38064393a6075.jpg" class="avt" alt="Hình ảnh đại diện của người dùng">
+                        <!-- 6. Tên của bạn nữ -->
+                        <p>Chúa Tể</p>
+                  </div>
+            </div>
 
-        <nav>
-            <ul>
-                <li><a href="trangchu.html">Trang chủ</a></li>
-                <li><a href="index.html">Lời Chúc</a></li>
-<!-- Điều hướng đến trang "Chúc" -->
-            </ul>
-        </nav>
-        
-        <div class="boxHeartImg">
-            <div class="heartItem item1">
-                <img src="./image/heart.png" alt="">
+            <div id="music">
+                  <audio loop autoplay controls>Your browser does not support the audio element.</audio>
             </div>
-            <div class="heartItem item2">
-                <img src="./image/heart.png" alt="">
-            </div>
-            <div class="heartItem item3">
-                <img src="./image/heart.png" alt="">
-            </div>
-        </div>
-        <div class="heartBox">
-            <div class="heart"></div>
-        </div>
-        <div class="progress-bar">
-            <div class="progress"></div>
-            <div class="percent">100%</div>
-        </div>
-        <h2 class="textBox">
-            <span class="textLoad">loading</span>
-            <span class="cricle1">.</span>
-            <span class="cricle2">.</span>
-            <span class="cricle3">.</span>
-        </h2>
-        <div class="buttonCLick">
-            <img src="./image/cursor.png" alt="">
-            <div class="button">
-                <p class="textBtn"></p>
-            </div>
-        </div>
-    </div>
+
+            <!-- 7. Tiêu đề bên dưới -->
+            <footer>💕 I LOVE YOU 💕</footer>
+      </div> 
+      
+      <script src="trangchu.js"></script>
 </body>
 </html>
