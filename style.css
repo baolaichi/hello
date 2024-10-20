@@ -1,4 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+nav {
+    background-color: #e0a35e;
+    overflow: hidden; /* Ngăn chặn phần tử con tràn ra ngoài */
+    position: relative; /* Thêm position để có thể điều chỉnh z-index */
+    z-index: 10; /* Đặt z-index cao để đảm bảo nó ở trên các phần tử khác */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: left; /* Để các item trong menu nằm ngang */
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111; /* Hiệu ứng hover */
+}
+
 *{
     padding: 0;
     margin: 0;
