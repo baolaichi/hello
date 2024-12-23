@@ -1,9 +1,9 @@
 
-// Ngày bắt đầu yêu nhau
+
 const yourDate = new Date("2024-07-14T02:20:26"),
 
 // Danh sách cái bài nhạc nền
-music = ['IU'];
+music = ['dance'];
 
 document.addEventListener('DOMContentLoaded', function(){
       var rootTime = document.querySelector("time");
